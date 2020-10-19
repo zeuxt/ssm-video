@@ -1,0 +1,178 @@
+/*重置样式*/
+
+html {
+    font-family: "微软雅黑", Arial, sans-serif;
+}
+
+body{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-family: Microsoft YaHei, sans-serif, Arial;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+
+
+input,
+button,
+textarea,
+select {
+    *font-size: 100%;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*公用样式*/
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+    content: '.';
+    width: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.w1250 {
+    width: 1250px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.f_left li {
+    float: left;
+}
+
+.f_right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.v_middle {
+    vertical-align: middle;
+}
+
+.ma {
+    margin: 0 auto;
+}
+
+.pl_245 {
+    padding-right: 245px;
+}
+
+.pl_168 {
+    padding-right: 168px;
+}
+
+.ptb8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.f13 {
+    font-size: 13px;
+}
+
+.f15 {
+    font-size: 14px;
+}
+
+.c_e4 {
+    color: #e45d5f;
+}
+
+.t_center {
+    text-align: center;
+}
+
+.nav_choose {
+    background-color: #e55a5d;
+    color: #fff;
+}
+
+.nav_choose a {
+    color: #fff;
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.w25 td {
+    width: 25%;
+}
+
+.w33 td {
+    width: 33.333333333333333%;
+}
+
+.hr4 hr {
+    width: 30px;
+    border: none;
+    border: 1px solid red;
+    margin: 5px auto 20px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 70px;
+    color: #363636;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+/*样式*/
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.hidden {
+    display: none;
+}
